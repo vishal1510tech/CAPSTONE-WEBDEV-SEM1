@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillAcademy - Online Learning Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+    
+    <header class="header">
+        <nav class="navbar" aria-label="Main navigation">
+            <div class="nav-brand">
+                <h1>Skill<span>Academy</span></h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-content">
+                <h1 id="hero-title">Master New Skills Online</h1>
+                <p>Join 50,000+ learners transforming their careers with expert-led courses.</p>
+                <a href="#courses" class="cta-button">Start Learning Free</a>
+            </div>
+        </section>
+
+        <section id="courses" class="courses-section">
+            <h2>Featured Courses</h2>
+            <div class="courses-grid">
+                <article class="course-card">
+                    
+                    <div class="card-content">
+                        <h3>Web Development</h3>
+                        <p>Build responsive websites with HTML, CSS & JavaScript.</p>
+                        <span class="price">Free</span>
+                    </div>
+                </article>
+                <article class="course-card">
+                    
+                    <div class="card-content">
+                        <h3>Python Programming</h3>
+                        <p>Master Python from basics to advanced data science.</p>
+                        <span class="price">₹499</span>
+                    </div>
+                </article>
+                <article class="course-card">
+                
+                    <div class="card-content">
+                        <h3>Digital Marketing</h3>
+                        <p>Drive traffic and conversions with proven strategies.</p>
+                        <span class="price">₹1000</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials-section">
+            <h2>What Students Say</h2>
+            <div class="testimonials-grid">
+                <blockquote class="testimonial-card">
+                    <img src="images/testimonial-avatar.jpg" alt="avatar 1" class="avatar">
+                    <p>"Transformed my career in just 3 months!"</p>
+                    <cite>- Vishal Singh, Web Developer</cite>
+                </blockquote>
+                <blockquote class="testimonial-card">
+                    <img src="images/testimonial-avatar.jpg" alt="avatar 2" class="avatar">
+                    <p>"Best platform for practical Python skills."</p>
+                    <cite>- Sachin Verma, Data Analyst</cite>
+                </blockquote>
+            </div>
+        </section>
+
+        <section id="pricing" class="pricing-section">
+            <h2>Choose Your Plan</h2>
+            <div class="pricing-grid">
+                <article class="plan-card">
+                    <h3>Starter</h3>
+                    <div class="price">$0<span>/month</span></div>
+                    <ul>
+                        <li>5 Courses</li>
+                        <li>Basic Support</li>
+                        <li>Community Access</li>
+                    </ul>
+                    <a href="#contact" class="plan-button">Get Started</a>
+                </article>
+                <article class="plan-card featured">
+                    <h3>Pro</h3>
+                    <div class="price">$19<span>/month</span></div>
+                    <ul>
+                        <li>All Courses</li>
+                        <li>Priority Support</li>
+                        <li>Certificates</li>
+                        <li>Projects</li>
+                    </ul>
+                    <a href="#contact" class="plan-button">Popular</a>
+                </article>
+                <article class="plan-card">
+                    <h3>Premium</h3>
+                    <div class="price">$49<span>/month</span></div>
+                    <ul>
+                        <li>Everything in Pro</li>
+                        <li>1:1 Mentoring</li>
+                        <li>Job Guarantee</li>
+                    </ul>
+                    <a href="#contact" class="plan-button">Join Premium</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Get In Touch</h2>
+            <form class="contact-form" aria-labelledby="contact-heading">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="your@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required placeholder="Tell us about your learning goals..."></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 SkillAcademy. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="GitHub"></a>
+                <a href="#" aria-label="Twitter"></a>
+                <a href="#" aria-label="LinkedIn"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
